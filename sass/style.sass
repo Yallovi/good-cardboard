@@ -1,0 +1,189 @@
+$text-color-dark: #373737
+$text-color-light: #ffffff
+$active-color: #fd9c28
+img
+    max-width: 100%
+body
+    font-family: 'Roboto', sans-serif
+    margin: 0
+
+.header
+    padding: 15px
+    &-contacts
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        &__phone
+            font-size: 22px
+            padding-right: 14px
+    &__button
+        font-size: 14px
+        background-color: $active-color
+        border: none
+        border-radius: 5px
+        color: $text-color-light
+        padding: 11px 20px
+        outline: none !important
+        img
+            vertical-align: middle
+    &__button:hover
+        background-color: lighten($active-color, 5)
+        cursor: pointer
+.main
+    padding-top: 65px
+    padding-bottom: 60px
+    background: url('../img/main/main-bg.jpg')
+    &-text
+        color: $text-color-light
+        &__title
+            margin-bottom: 20px
+            font-size: 41px
+            font-weight: 700
+        &__subtitle
+            margin-bottom: 20px
+            font-size: 28px
+            font-weight: 300
+        &__form 
+            background-color: rgba(255, 255, 255, 0.2)
+.form
+    &-title
+        margin-bottom: 20px
+        padding-right: 87px
+        font-size: 20px
+        font-weight: 300
+        line-height: 30px
+        &__important
+            font-weight: 700
+            text-transform: uppercase
+    &__input
+        padding: 11px 20px
+        border: none
+        border-radius: 4px
+        margin-right: 10px
+        outline: none !important
+    &__button
+        font-size: 14px
+        background-color: $active-color
+        border: none
+        border-radius: 5px
+        color: $text-color-light
+        padding: 11px 20px
+        margin-bottom: 10px
+        outline: none !important
+    &__button:hover
+        background-color: lighten($active-color, 5)
+        cursor: pointer
+.overlay
+    position: fixed
+    display: block
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.4)
+    z-index: 3
+    .popup
+        position: fixed
+        left: 50%
+        top: 100px
+        width: 766px
+        transform: translateX(-50%)
+        // background: #ffffff
+        &-close
+            position: absolute
+            top: -30px
+            right: -20px
+            font-size: 35px
+            color: #ffffff
+            font-weight: 300
+            cursor: pointer
+        &-title
+            display: block
+            width: 100%
+            min-height: 71px
+            text-align: center
+            background-color: $active-color 
+            color: #ffffff
+            font-size: 21px
+            font-weight: 500
+            line-height: 71px
+            text-transform: uppercase
+        &-form
+            background: url('../img/popup/bg_popup.jpg') center no-repeat
+            background-size: cover
+            padding: 35px 88px 50px 88px
+            color: #ffffff
+            &_header
+                //padding: 0
+                text-align: center
+                font-size: 30px
+                font-weight: 400
+                line-height: 27px
+                span
+                    font-size: 24px
+            &__lable
+                font-size: 20px
+                font-weight: 300
+                line-height: 30px
+            &__input
+                width: 365px
+                height: 45px
+                border-radius: 5px
+                outline: none !important
+                margin-right: 8px
+            &__btn
+                background-color: $active-color
+                padding: 11px 29px
+                border: none
+                border-radius: 3px
+                color: $text-color-light
+                outline: none !important
+                font-weight: 500
+                line-height: 22px
+            &__note
+                font-size: 14px
+                font-weight: 300
+                line-height: 30px
+        
+.features
+    background-color: #f4f4f4
+    padding-top: 49px
+    padding-bottom: 55px
+    &-blocks
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &-block
+        display: flex
+        align-items: center
+        flex-basis: 31%
+        background-color: #fff
+        padding: 28px 19px
+        margin-bottom: 30px
+        &__img
+            flex-basis: 40%
+            margin-right: 9px
+            &__title
+                font-size: 15px
+                font-weight: 700
+                margin-bottom: 5px
+            &__descr
+                font-size: 14px 
+                font-weight: 400
+.numbers
+    margin-bottom: 37px
+    text-align: center
+    &-block
+        display: inline-block
+        width: 30%
+        vertical-align: top
+        &__title
+            margin-bottom: 10px
+            font-size: 36px
+            font-weight: 900
+            color: $active-color
+            sup
+                font-size: 18px
+        &__text 
+            font-size: 16px
+            font-weight: 300
+       

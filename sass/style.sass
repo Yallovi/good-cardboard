@@ -75,7 +75,7 @@ body
         cursor: pointer
 .overlay
     position: fixed
-    display: block
+    display: none 
     top: 0
     width: 100%
     height: 100%
@@ -186,4 +186,107 @@ body
         &__text 
             font-size: 16px
             font-weight: 300
-       
+.products
+    text-align: center
+.section-title
+    text-align: center
+    padding-top: 57px
+    font-size: 27px
+    font-weight: 700
+    line-height: 18px
+    text-transform: uppercase
+    &::after
+        content: ''
+        margin-top: 12px
+        display: block
+        height: 6px
+        background: url(../img/products/wavy-line-clipart-picture-gif-png-icon-image-hd-484800.png) center no-repeat
+.products-block
+    &__title
+        padding-top: 19px
+        font-size: 20px
+        font-weight: 500
+        line-height: 19.99px
+        color: black
+    &__buttons
+        margin-top: 28px
+        .button
+            font-size: 15px
+            background-color: $active-color
+            border: 1px solid
+            border-radius: 5px
+            color: $text-color-light
+            padding: 14px 22px
+            margin-bottom: 10px
+            outline: none !important
+            &:hover
+                background-color: lighten($active-color, 5)
+                cursor: pointer
+        .button-o
+            background-color: transparent
+            color: $text-color-dark
+            font-size: 15px
+            font-weight: 400
+            line-height: 23.47px
+            padding: 10px 24px
+            border-radius: 4px
+            border: 1px solid rgba(#373737,0.5)
+            opacity: 0.5
+            &:hover
+                background-color: lighten($active-color, 5)
+                color: $text-color-light
+                border: 1px solid transparent
+                cursor: pointer
+.customers
+    &-block
+        text-align: center
+        // &:hover
+        //     cursor: pointer
+.sentence
+    padding-top: 64px
+    padding-bottom: 69px
+    background: url('../img/sentence_bg.jpg') center no-repeat
+    text-align: center
+    color: $text-color-light
+    &-title
+        font-size: 32px
+        line-height: 35px
+        padding-bottom: 20px
+        span
+            font-size: 26px
+    .form
+        &-label
+            font-size: 20px
+            font-weight: 300
+            line-height: 30px
+            margin-bottom: 17px
+            display: block
+        &-input
+            padding: 5px 100px
+            font-size: 14px
+            font-weight: 300
+            line-height: 42px
+            border-radius: 5px
+            outline: none !important
+            margin-bottom: 12px
+        &-button
+            font-size: 15px
+            font-weight: 500
+            line-height: 22px
+            background-color: $active-color
+            border: none
+            border-radius: 5px
+            color: $text-color-light
+            padding: 21px 30px
+            margin-bottom: 10px
+            outline: none !important
+            &:hover
+                background-color: lighten($active-color, 5)
+                cursor: pointer
+    &-small
+        font-size: 14px
+        font-weight: 300
+        line-height: 30px       
+
+        
+        

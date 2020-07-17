@@ -286,7 +286,64 @@ body
     &-small
         font-size: 14px
         font-weight: 300
-        line-height: 30px       
+        line-height: 30px
+.production
+    padding-top: 87px
+    padding-bottom: 90px
+    &-slider
+        &__top
+            margin-bottom: 13px
+            height: 377px
+            overflow-y: hidden
+        &__bot 
+            padding-left: 30px
+            padding-right: 30px
+            height: 78px
+            overflow-y: hidden
+            img 
+                margin: 0 6px 
+    &-text
+        &__title
+            font-size: 28px
+            font-weight: 400
+            line-height: 22px
+            padding: 26px 
+            background: $active-color
+            color: $text-color-light
+        &__descr
+            padding-top: 28px
+            color: #373737
+            font-size: 16px
+            font-weight: 300
+            line-height: 24px
+
+.slider-arrow
+    position: absolute
+    top: 0
+    z-index: 99
+    height: 100%
+    width: 22px
+    &_prod
+        border: 1px solid $active-color
+    &:hover
+        cursor: pointer
+    &_right
+        right: 0
+        background: #fff url('../img/arrow-right.png') center no-repeat
+        &:hover
+            background: $active-color url('../img/arrow-right__active.png') center no-repeat
+    &_left
+        left: 0
+        background: #fff url('../img/arrow-left.png') center no-repeat
+        &:hover
+            background: $active-color url('../img/arrow-left__active.png') center no-repeat
+.feedback
+    padding-top: 55px
+    padding-bottom: 66px
+    background-color: #f4f4f4
+    &-slider
+        img
+            margin: 0 auto
 
         
         

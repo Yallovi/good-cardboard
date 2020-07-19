@@ -188,9 +188,9 @@ body
             font-weight: 300
 .products
     text-align: center
+    padding-top: 57px
 .section-title
     text-align: center
-    padding-top: 57px
     font-size: 27px
     font-weight: 700
     line-height: 18px
@@ -202,6 +202,7 @@ body
         height: 6px
         background: url(../img/products/wavy-line-clipart-picture-gif-png-icon-image-hd-484800.png) center no-repeat
 .products-block
+    margin-bottom: 30px
     &__title
         padding-top: 19px
         font-size: 20px
@@ -238,10 +239,9 @@ body
                 border: 1px solid transparent
                 cursor: pointer
 .customers
+    margin-bottom: 60px
     &-block
         text-align: center
-        // &:hover
-        //     cursor: pointer
 .sentence
     padding-top: 64px
     padding-bottom: 69px
@@ -344,6 +344,40 @@ body
     &-slider
         img
             margin: 0 auto
-
+.contacts
+    position: relative
+    // padding-top: 73px
+    // padding-bottom: 87px
+    .button
+        font-size: 14px
+        font-weight: 500
+        line-height: 22px
+        background-color: $active-color
+        border: none
+        border-radius: 5px
+        color: $text-color-light
+        padding: 14px 24px
+        outline: none !important
+        &:hover
+            background-color: lighten($active-color, 5)
+            cursor: pointer
+    &-block
+        position: absolute
+        top: 10%
+        left: 10%
+        background-color: #fff
+        padding-top: 33px
+        padding-bottom: 39px
+        padding-left: 60px
+        padding-right: 34px
+        &__title
+            display: block
+            font-size: 18px
+            font-weight: 700
+            margin-top: 8px
+            margin-bottom: 8px
+        &__text
+            margin-bottom: 30px
+    
         
         

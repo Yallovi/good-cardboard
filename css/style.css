@@ -260,11 +260,11 @@ body {
 
 .products {
   text-align: center;
+  padding-top: 57px;
 }
 
 .section-title {
   text-align: center;
-  padding-top: 57px;
   font-size: 27px;
   font-weight: 700;
   line-height: 18px;
@@ -277,6 +277,10 @@ body {
   display: block;
   height: 6px;
   background: url(../img/products/wavy-line-clipart-picture-gif-png-icon-image-hd-484800.png) center no-repeat;
+}
+
+.products-block {
+  margin-bottom: 30px;
 }
 
 .products-block__title {
@@ -324,6 +328,10 @@ body {
   color: #ffffff;
   border: 1px solid transparent;
   cursor: pointer;
+}
+
+.customers {
+  margin-bottom: 60px;
 }
 
 .customers-block {
@@ -471,5 +479,49 @@ body {
 
 .feedback-slider img {
   margin: 0 auto;
+}
+
+.contacts {
+  position: relative;
+}
+
+.contacts .button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  background-color: #fd9c28;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 14px 24px;
+  outline: none !important;
+}
+
+.contacts .button:hover {
+  background-color: #fda841;
+  cursor: pointer;
+}
+
+.contacts-block {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background-color: #fff;
+  padding-top: 33px;
+  padding-bottom: 39px;
+  padding-left: 60px;
+  padding-right: 34px;
+}
+
+.contacts-block__title {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.contacts-block__text {
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */

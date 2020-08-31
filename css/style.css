@@ -655,5 +655,19 @@ body {
   .customers .section-title {
     font-size: 22px;
   }
+  .feedback {
+    text-align: center;
+  }
+  .feedback .section-title {
+    font-size: 23px;
+  }
+  .contacts .ymap {
+    width: 100%;
+  }
+  .contacts-block {
+    position: relative;
+    text-align: center;
+    left: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

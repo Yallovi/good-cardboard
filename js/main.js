@@ -37,4 +37,13 @@ $('.production-slider__top').slick({
     arrows: true,
     prevArrow: '<div class="slider-arrow slider-arrow_feedback slider-arrow_left"</div>',
     nextArrow: '<div class="slider-arrow slider-arrow_feedback slider-arrow_right"</div>',
-  });
+    responsive: [  
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});

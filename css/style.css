@@ -536,6 +536,15 @@ body {
   margin-bottom: 30px;
 }
 
+.footer {
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  font-size: 13px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 @media (max-width: 576px) {
   .hidden-mobile {
     display: none;
@@ -668,6 +677,12 @@ body {
     position: relative;
     text-align: center;
     left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .numbers-block__title {
+    font-size: 27px;
   }
 }
 /*# sourceMappingURL=style.css.map */
